@@ -1,0 +1,16 @@
+{
+	"framework" : "custom_container",
+	"inputs" : 
+	{
+		"amount" : {},
+		"newbalanceDest" : {},
+		"newbalanceOrig" : {},
+		"oldbalanceDest" : {},
+		"oldbalanceOrig" : {},
+		"type" : {}
+	},
+	"outputs" : 
+	{
+		"isFraud_probs" : {}
+	}
+}

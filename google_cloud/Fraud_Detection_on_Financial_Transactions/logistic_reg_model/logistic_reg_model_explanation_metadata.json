@@ -1,0 +1,43 @@
+{
+  "outputs": {
+    "isFraud_logits": {
+      "output_tensor_name": "Add:0"
+    }
+  },
+  "inputs": {
+    "amount": {
+      "input_tensor_name": "amount:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "newbalanceDest": {
+      "input_tensor_name": "newbalanceDest:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "newbalanceOrig": {
+      "input_tensor_name": "newbalanceOrig:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "oldbalanceDest": {
+      "input_tensor_name": "oldbalanceDest:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "oldbalanceOrig": {
+      "input_tensor_name": "oldbalanceOrig:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    },
+    "type": {
+      "input_tensor_name": "type:0",
+      "encoding": "identity",
+      "modality": "numeric"
+    }
+  },
+  "framework": "Tensorflow",
+  "tags": [
+    "explainable_ai_sdk"
+  ]
+}

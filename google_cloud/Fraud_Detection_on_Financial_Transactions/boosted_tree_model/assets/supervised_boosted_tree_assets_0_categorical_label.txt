@@ -1,0 +1,3 @@
+_null_filler
+CASH_OUT
+TRANSFER

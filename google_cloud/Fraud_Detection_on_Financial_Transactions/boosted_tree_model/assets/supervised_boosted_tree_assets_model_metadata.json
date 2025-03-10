@@ -1,0 +1,60 @@
+{
+	"class_names" : 
+	[
+		"1",
+		"0"
+	],
+	"feature_names" : 
+	[
+		"type",
+		"amount",
+		"oldbalanceOrig",
+		"newbalanceOrig",
+		"oldbalanceDest",
+		"newbalanceDest"
+	],
+	"features" : 
+	{
+		"amount" : 
+		{
+			"max" : 71172480.42,
+			"mean" : 352438.8473911961,
+			"min" : 0,
+			"stddev" : 1038195.255270401
+		},
+		"newbalanceDest" : 
+		{
+			"max" : 302394177.94,
+			"mean" : 2055833.857865934,
+			"min" : 0,
+			"stddev" : 4868151.854399819
+		},
+		"newbalanceOrig" : 
+		{
+			"max" : 49585040.37,
+			"mean" : 20924.98804871474,
+			"min" : 0,
+			"stddev" : 369592.7823352936
+		},
+		"oldbalanceDest" : 
+		{
+			"max" : 302275361.94,
+			"mean" : 1695899.560845481,
+			"min" : 0,
+			"stddev" : 4391363.85845234
+		},
+		"oldbalanceOrig" : 
+		{
+			"max" : 59585040.37,
+			"mean" : 89595.36494886586,
+			"min" : 0,
+			"stddev" : 688135.2064848039
+		},
+		"type" : 
+		{
+			"encode_type" : "ohe"
+		}
+	},
+	"label_col" : "isFraud",
+	"model_type" : "boosted_tree_classifier"
+}
